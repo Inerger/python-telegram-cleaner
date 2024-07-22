@@ -22,6 +22,24 @@
    pip3 install Telethon
    ```
 
+Here's how you can obtain your `api_id` and `api_hash`:
+
+---
+
+#### Obtaining API ID and API Hash:
+To use this script, you need to obtain your own Telegram API credentials (`api_id` and `api_hash`). Follow these steps:
+
+1. **Visit Telegram's API development tools**: Go to the [Telegram API development tools](https://my.telegram.org/auth) page and log in with your Telegram account.
+
+2. **Create a new application**:
+   - After logging in, click on "API development tools".
+   - Click on "Create new application".
+   - Fill out the form with your application details.
+   - After submitting the form, you will see your `api_id` and `api_hash`.
+
+3. **Note down your credentials**: Save the `api_id` and `api_hash` provided, as you will need to input them into the script.
+
+
 #### Usage:
 1. Update your API credentials and list of offensive words in the `delete_offensive_messages.py` script.
 2. Run the script:
